@@ -1,0 +1,14 @@
+*{
+    margin: o;
+    padding: 0;
+}
+.d1{
+    border: 1;
+    width: 100%;
+    height: 400px;
+    background-color: orange;
+    text-align: center;
+}
+.h1{
+   padding: 150px;
+}
