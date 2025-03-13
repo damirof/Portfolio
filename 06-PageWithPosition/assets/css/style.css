@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.hd {
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    width: 100%;
+}
+
+.hd_div {
+    padding-left: 20px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.srch {
+    height: 35px;
+    width: 250px;
+}
+
+.body {
+    display: flex;
+}
+
+.aside {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 1400px;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.size_area {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.size {
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.c_area {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.c_area li {
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.black {
+    background-color: black;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.green {
+    background-color: green;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.crem {
+    background-color: chocolate;
+}
+
+.red {
+    background-color: red;
+}
+
+.white {
+    background-color: white;
+}
+
+.tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.tag {
+    background-color: rgb(221, 209, 209);
+    height: 40px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.as_area {
+    padding: 20px 0;
+}
+
+.card_area {
+    padding-left: 200px;
+    width: 1500px;
+    height: 1000px;
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.card{
+    height: 420px;
+    width: 220px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.images {
+    padding: 10px;
+    height: 300px;
+    width: 200px;
+    border-radius: 5px;
+}
+.image {
+    height: 300px;
+    width: 200px;
+    border-radius: 5px;
+}
+.content{
+    font-size:20px;
+    font-weight: bold;
+    padding: 10px;
+}
