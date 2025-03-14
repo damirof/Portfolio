@@ -85,6 +85,7 @@ nav .nav-links a {
 }
 @media (max-width: 768px) {
     nav .nav-links {
+        display: flex;
         flex-direction: column;
         align-items: center;
     }
@@ -94,11 +95,16 @@ nav .nav-links a {
     }
 
     .categories {
-        flex-direction: column;
-    }
-    .mainsec{
+        display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
+    }
+    .mainsec{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:100%;
     }
 *{
 
