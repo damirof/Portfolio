@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    color: gold;
+}
+p{
+    text-align: center;
+    color: gold;
+}
+body{
+    
+    background:url(../images/download.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 700px;    

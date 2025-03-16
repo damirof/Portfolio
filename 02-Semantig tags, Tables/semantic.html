@@ -2,41 +2,70 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 
 <body>
-    /* "header" giriş məzmunu və ya naviqasiya keçidləri üçün konteyneri təmsil edir */
-       <p> <header>
-        <h1>What Does WWF Do?</h1>
-        <p>WWF's mission:</p>
-      </header> </p>
-    <p> "footer" sənəd və ya bölmə üçün altbilgi müəyyən edir.</p>
-    <footer>
-        <p>Author: Hege Refsnes</p>
-        <p><a href="mailto:hege@example.com">faridsd-ap121@code.edu.az</a></p>
-    </footer> <br>
-   <p> "nav" naviqasiya keçidləri dəstini müəyyən edir.</p>
-   <nav>
+  <!-- "header" giriş məzmunu və ya naviqasiya keçidləri üçün konteyneri təmsil edir -->
+  <header>
+    <h1>What Does WWF Do?</h1>
+    <p>WWF's mission:</p>
+  </header> <br>
+  <!-- "nav" naviqasiya keçidləri dəstini müəyyən edir. -->
+  <nav>
     <a href="/html/">HTML</a> |
     <a href="/css/">CSS</a> |
     <a href="/js/">JavaScript</a> |
     <a href="/jquery/">jQuery</a>
   </nav> <br>
-  <p> "figure" illüstrasiyalar, diaqramlar, fotoşəkillər, kod siyahıları və s. kimi müstəqil məzmunu təyin edir.</p>
+  <!-- "section" sənəddə bölməni müəyyən edir. -->
+  <section>
+    <h1>WWF</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi sed nisi quo?</p>
+  </section>
+  <!-- "article"müstəqil,özü-özünə daxil olan məzmunu təyin edir -->
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+    </article>
+
+  <!-- "footer" sənəd və ya bölmə üçün altbilgi müəyyən edir. -->
+  <footer>
+    <p>Author: Hege Refsnes</p>
+    <p><a href="mailto:hege@example.com">faridsd-ap121@code.edu.az</a></p>
+  </footer> <br>
+
+  <!-- "figure" illüstrasiyalar, diaqramlar, fotoşəkillər, kod siyahıları və s. kimi müstəqil məzmunu təyin edir. -->
   <figure>
-    <img src="exp.jpg" alt="Trulli">
+    <img src="exp.jpg" alt="Italy">
     <figcaption>Fig1. - Trulli, Puglia, Italy.</figcaption>
   </figure> <br>
-  <p>"aside" yerləşdirildiyi məzmundan başqa bəzi məzmunu müəyyən edir</p>
+  <!-- "aside" yerləşdirildiyi məzmundan başqa bəzi məzmunu müəyyən edir -->
   <p>My family and I visited The Epcot center this summer.</p>
 
-<aside>
-<h4>Epcot Center</h4>
-<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions,special events.</p>
-</aside>  <br>
+  <aside>
+    <h4>Epcot Center</h4>
+    <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions,special events.</p>
+  </aside> <br>
+  <!-- "mark" mətnin bəzi hissələrini işıqlandır -->
+  <p>Do not forget to buy <mark>milk</mark> today.</p>
+<!-- "optin" 4 variantli acilan siyahi yaradir -->
+  <label for="cars">Choose a car:</label>
+
+<select id="cars">
+  <option value="BMW">BMW</option>
+  <option value="Volvo">Volvo</option>
+  <option value="Opel">Opel</option>
+  <option value="Audi">Audi</option>
+</select> <br>
+<!-- "details"istifadəçinin istəyə görə aça biləcəyi və bağlaya biləcəyi detalları təyin edin: -->
+<details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+
 
 
 </body>

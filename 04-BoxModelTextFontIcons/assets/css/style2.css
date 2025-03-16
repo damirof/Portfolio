@@ -1,0 +1,36 @@
+
+.lefttop{
+    height: 300px;
+    width: 500px;
+    background-color: rgb(136, 194, 136);
+    border-radius: 90px;
+    border: 10px solid red;
+}
+.righttop{
+    height: 300px;
+    width: 500px;
+    background-color:orange;
+    border-radius: 25% 10%;
+    border: 10px solid red;
+}
+.rightbottom{
+    height: 300px;
+    width: 500px;
+    background-color:rgb(87, 139, 74);
+    border-radius: 35px 15em 10%;
+    border: 10px solid red;
+}
+.leftbottom{
+    height: 300px;
+    width: 500px;
+    background-color:rgb(158, 105, 105);
+    border-radius: 50px 50% 50cm 50em;
+    border: 10px solid red  ;
+}
+.boxes{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
