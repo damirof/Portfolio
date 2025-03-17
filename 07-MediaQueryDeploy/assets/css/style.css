@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #ffffff;
     color: white;
     padding: 10px 20px;
 }
@@ -16,10 +16,12 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100px;
+    margin: 0 200px;
 }
 
-nav .logo {
-    font-size: 24px;
+nav .logo img {
+    height: 80px;
     font-weight: bold;
 }
 
@@ -28,6 +30,7 @@ nav .nav-links {
     display: flex;
     margin: 0;
     padding: 0;
+    font-size: 30px;
 }
 
 nav .nav-links li {
@@ -35,15 +38,16 @@ nav .nav-links li {
 }
 
 nav .nav-links a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
+    font-weight: bold;
 }
 .mainsec{
     display: flex;
 }
 
 .hero {
-    background-color: #f4f4f4;
+  background: url(../images/left-banner-image.jpg);
     text-align: center;
     padding: 100px 20px;
     width: 800px;
@@ -52,36 +56,64 @@ nav .nav-links a {
 }
 
 .hero h1 {
-    font-size: 36px;
+    font-size: 60px;
     margin-bottom: 10px;
+    color: #ffffff;
 }
 
 .hero p {
-    font-size: 18px;
-    margin-bottom: 20px;
+    font-size: 30px;
+    margin-bottom: 80px;
+    color: #ffffff;
 }
 
 .hero .btn {
     background-color: #333;
     color: white;
     padding: 10px 20px;
+    margin-top: 60px;
     text-decoration: none;
     border-radius: 5px;
 }
 
 .categories {
     display: flex;
-    justify-content:space-evenly;
-    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 20px;
 }
 
-.category {
-    background-color: #f4f4f4;
+.categoryw {
+    padding: 20px;
+    margin: 10px;
+    height: 250px;
+    width: 250px;
+    background: url(../images/baner-right-image-01.jpg);
+}
+.categorym {
     padding: 20px;
     margin: 10px;
     text-align: center;
     height: 250px;
     width: 250px;
+    background: url(../images/baner-right-image-02.jpg);
+}
+.categoryk {
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    background: url(../images/baner-right-image-03.jpg);
+}
+.categorya {
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    background: url(../images/baner-right-image-04.jpg);
 }
 @media (max-width: 768px) {
     nav .nav-links {
