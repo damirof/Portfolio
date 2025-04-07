@@ -47,19 +47,19 @@ const apiResponse = [
     }
 ];
 
-//  1. Destructuring istifadə edərək ikinci məqalənin məlumatlarını çıxarın
+//  3.1. Destructuring istifadə edərək ikinci məqalənin məlumatlarını çıxarın
 
 const [, { id, title, author, stats: [oxunma, bəyənmə, şərhlər] }] = apiResponse;
 
 console.log(`${id}, ${title}, ${author}, ${oxunma}, ${bəyənmə}, ${şərhlər}`);
 
 
-//  2. stats array-ini də destructuring edin (oxunma, bəyənmə, şərhlər)
+//  3.2. stats array-ini də destructuring edin (oxunma, bəyənmə, şərhlər)
 const [, { stats: [oxunma, beyenme, serhler] }] = apiResponse;
 
 console.log(`oxunma: ${oxunma}, beyenme: ${beyenme}, serhler: ${serhler}`);
 
-// 3. Aşağıdakı formatda nəticəni console-a çıxarın:
+// 3.3. Aşağıdakı formatda nəticəni console-a çıxarın:
 // "Məqalə: Array Destructuring, Müəllif: Leyla Əliyeva, 1800 oxunma, 220 bəyənmə, 45 şərh"
 
 const {title, author, stats: [oxunma, begenme, serhler]} = apiResponse.find(article => article.id == 2);
