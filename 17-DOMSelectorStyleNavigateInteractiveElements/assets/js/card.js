@@ -1,32 +1,52 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const favoriteBtn = document.querySelector('.favorite-btn');
-    const contactBtn = document.querySelector('.contact-btn');
-    const card = document.querySelector('.real-estate-card');
-    
-    // Favorite button functionality
-    favoriteBtn.addEventListener('click', function() {
-        this.classList.toggle('active');
-        const icon = this.querySelector('i');
-        icon.classList.toggle('far');
-        icon.classList.toggle('fas');
-        
-        const action = this.classList.contains('active') ? 'added to' : 'removed from';
-        console.log(`Property ${action} favorites`);
-    });
-    
-    // Contact button functionality
-    contactBtn.addEventListener('click', function() {
-        alert('Contacting Tiffany Heffner at (555) 555-4321');
-    });
-    
-    // Additional hover effects
-    card.addEventListener('mouseenter', function() {
-        this.style.transform = 'translateY(-5px)';
-        this.style.boxShadow = '0 6px 12px rgba(0,0,0,0.15)';
-    });
-    
-    card.addEventListener('mouseleave', function() {
-        this.style.transform = 'translateY(0)';
-        this.style.boxShadow = '0 4px 8px rgba(0,0,0,0.1)';
-    });
-});
+document.body.style.fontFamily = 'Arial, sans-serif';
+document.body.style.display = 'flex';
+document.body.style.justifyContent = 'center';
+document.body.style.alignItems = 'center';
+document.body.style.height = '100vh';
+document.body.style.margin = '0';
+document.body.style.backgroundColor = '#f5f5f5';
+
+const card = document.getElementById('card');
+card.style.width = '280px';
+card.style.background = 'white';
+card.style.padding = '15px';
+card.style.border = '1px solid #ddd';
+
+const propertyInfo = document.querySelector('.property-info');
+propertyInfo.style.color = '#666';
+propertyInfo.style.fontSize = '14px';
+propertyInfo.style.marginBottom = '5px';
+
+const price = document.querySelector('.price');
+price.style.fontSize = '22px';
+price.style.fontWeight = 'bold';
+price.style.marginBottom = '5px';
+
+const address = document.querySelector('.address');
+address.style.color = '#555';
+address.style.marginBottom = '15px';
+
+const details = document.querySelector('.details');
+details.style.display = 'flex';
+details.style.gap = '15px';
+details.style.marginBottom = '15px';
+
+const realtorInfo = document.querySelector('.realtor-info');
+realtorInfo.style.background = '#f5f5f5';
+realtorInfo.style.padding = '10px';
+realtorInfo.style.marginBottom = '15px';
+
+const realtorTitle = document.querySelector('.realtor-title');
+realtorTitle.style.fontSize = '12px';
+realtorTitle.style.color = '#777';
+realtorTitle.style.marginBottom = '5px';
+
+const contactBtn = document.getElementById('contactBtn');
+contactBtn.style.width = '100%';
+contactBtn.style.padding = '8px';
+contactBtn.style.backgroundColor = '#4a90e2';
+contactBtn.style.color = 'white';
+contactBtn.style.border = 'none';
+contactBtn.style.cursor = 'pointer';
+
+
