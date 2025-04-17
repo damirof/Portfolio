@@ -29,5 +29,49 @@ document.addEventListener("DOMContentLoaded", () => {
     };
     
     logout.addEventListener("click", logoutUser);
+
+    let card = document.querySelector("div");
+    card.classList.add("card");
+
+    let cardImage = document.querySelector("div");
+    cardImage.classList.add("card-image");
+
+    let img = document.querySelector("img");
+    img.setAttribute("src", "https://via.placeholder.com/150");
+
+    let cardContent = document.querySelector("div");
+    cardContent.classList.add("card-content");
+
+    let cardTitle = document.querySelector("h2");
+    cardTitle.classList.add("card-title");
+
+    let cardCategory = document.querySelector("p");
+    cardCategory.classList.add("card-category");
+
+    let cardFooter = document.querySelector("div");
+    cardFooter.classList.add("card-footer");
+
+    let cardPrice = document.querySelector("span");
+    cardPrice.classList.add("card-price");
+
+    let cardRating = document.querySelector("div");
+    cardRating.classList.add("card-rating");
+
+    let rate = document.querySelector("span");
+    let reviews = document.querySelector("span");
+
+
+
+
+    cardRating.append(rate, reviews);
+    cardFooter.append(cardPrice, cardRating);
+    cardContent.append(cardTitle, cardCategory, cardFooter);
+    cardImage.append(img);
+    card.append(cardImage, cardContent);
+
+    let cards = document.querySelectorAll(".cards");
+    cards.appendChild(card);
+
+
 });
 logoutUser();
