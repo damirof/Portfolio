@@ -86,10 +86,12 @@ document.addEventListener("DOMContentLoaded", () => {
             username: username.value.trim(),
             email: email.value.trim(),
             password: password.value,
+            confirmpassword: confirmpassword.value,
             isLoggedIn: false,
             loginAttempts: 0,
             lockedUntil: null,
             createdAt: new Date().toISOString()
+            wishlist: [],
         };
         
         users.push(newUser);
