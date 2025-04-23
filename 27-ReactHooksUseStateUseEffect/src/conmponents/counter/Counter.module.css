@@ -1,0 +1,120 @@
+.counterBody {
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    border: 10px solid #000000;
+    border-radius: 15px;
+    background: rgb(53, 53, 53);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.titleBoxes {
+    background-color: #f39c12;
+    border: 7px solid #000000;
+    padding: 5px;
+    width: 70px;
+    height: 20px;
+    border-radius: 10px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -7px;
+    left: 41%;
+    
+}
+
+.counterTitle {
+    text-align: center;
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.counterDisplay {
+    background: #2c3e50;
+    color: white;
+    padding: 8px;
+    border-radius: 12px;
+    margin: 28px 0;
+}
+
+.counterValue {
+    font-size: 38px;
+    font-weight: bold;
+    display: block;
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.counterButton {
+    border: none;
+    padding: 15px 18px;
+    font-size: 13px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    min-width: 25%;
+}
+
+.incrementButton {
+    background: #27ae60;
+    color: white;
+}
+
+.decrementButton {
+    background: #e74c3c;
+    color: white;
+}
+
+.resetButton {
+    background: #137abf;
+    color: white;
+    width: 51%;
+    margin: 25px ;
+}
+
+.customControl {
+    margin-top: 18px;
+    padding-top: 18px;
+    border-top: 1px dashed #ccc;
+}
+
+.customInput {
+    width: 95%;
+    padding: 10px;
+    margin: 12px 0;
+    border: 2px solid #bdc3c7;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.customButtonGroup {
+    display: flex;
+    gap: 15px;
+}
+
+.customIncrementButton {
+    background: #27ae60;
+    color: white;
+    flex: 1;
+}
+
+.customDecrementButton {
+    background: #ff0000;
+    color: white(0, 0, 0);
+    flex: 1;
+}
