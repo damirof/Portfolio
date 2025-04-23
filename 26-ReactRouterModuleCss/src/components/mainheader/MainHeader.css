@@ -1,0 +1,62 @@
+.mainheader {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+
+
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+
+p {
+  font-size: 1.3rem;
+  margin: 0;
+  text-align: center;
+  color: rgb(138, 132, 132);
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  gap: 30px;
+}
+
+.btn_l {
+  background-color: #1a7af0;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.btn_r {
+ 
+  background-color: #282c34;
+  color: white;
+border: 1px solid #ffffff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+}
