@@ -1,0 +1,184 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .inputContainer {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .addButton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .addButton:hover {
+    background-color: #45a049;
+  }
+  
+  .todoList {
+    margin-bottom: 20px;
+  }
+  
+  .todoItem {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  .pending {
+    background-color: #ffebee;
+    border-left: 5px solid #f44336;
+  }
+  
+  .completed {
+    background-color: #e8f5e9;
+    border-left: 5px solid #4CAF50;
+  }
+  
+  .todoNumber {
+    margin-right: 10px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .todoText {
+    flex: 1;
+    margin-right: 10px;
+    color: black;
+  }
+  
+  .strikethrough {
+    text-decoration: line-through;
+    color: #665d5d;
+  }
+  
+  .buttonGroup {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .completeButton {
+    padding: 5px 10px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .completeButton:hover {
+    background-color: #0b7dda;
+  }
+  
+  .editButton {
+    padding: 5px 10px;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .editButton:hover {
+    background-color: #e68a00;
+  }
+  
+  .editButton:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  .deleteButton {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .deleteButton:hover {
+    background-color: #da190b;
+  }
+  
+  .deleteButton:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  .editInput {
+    flex: 1;
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .saveButton {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .saveButton:hover {
+    background-color: #45a049;
+  }
+  
+  .cancelButton {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .cancelButton:hover {
+    background-color: #da190b;
+  }
+  
+  .deleteAllButton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .deleteAllButton:hover {
+    background-color: #da190b;
+  }
