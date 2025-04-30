@@ -1,0 +1,113 @@
+.todo-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .todo-input {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .todo-input input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .todo-input button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .todo-list {
+    margin-bottom: 20px;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  .todo-item.completed span {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .todo-item input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .todo-item span {
+    flex: 1;
+  }
+  
+  .todo-actions button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .todo-actions button:first-child {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .todo-actions button:last-child {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .delete-all {
+    text-align: center;
+  }
+  
+  .delete-all button {
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 4px;
+    width: 400px;
+    max-width: 90%;
+  }
+  
+
+  .modal h2 {
+    margin-top: 0;
+  }
+  
+  .modal input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+ 
