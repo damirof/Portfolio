@@ -12,8 +12,9 @@ export default function Navbar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
-        <Toolbar>
-          <IconButton
+        <Toolbar style={{display: "flex", justifyContent: "space-between"}}>
+       <div style={{display: "flex", justifyContent: "space-between", alignItems:"center"}}>
+       <IconButton
             size="large"
             edge="start"
             color="inherit"
@@ -22,13 +23,16 @@ export default function Navbar() {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            News
-          </Typography>
+          <h2 >
+            Logo
+          </h2>
+       </div>
+  
+  <div style={{display: "flex", justifyContent: "space-between", alignItems:"center"}}>
+  <FavoriteIcon/>
 
-          <FavoriteIcon/>
-
-          <Button color="inherit">Login</Button>
+<Button color="inherit">Login</Button>
+  </div>
         </Toolbar>
       </AppBar>
     </Box>
